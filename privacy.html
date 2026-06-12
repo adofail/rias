@@ -1,105 +1,346 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rias Gremory Privacy Policy</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 950px;
       margin: 40px auto;
       padding: 0 20px;
-      line-height: 1.6;
+      line-height: 1.65;
       color: #222;
       background: #fafafa;
     }
 
-    h1, h2 {
-      color: #111;
+    .container {
+      background: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 12px;
+      padding: 28px;
     }
 
-    .box {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 22px;
+    h1 {
+      margin-top: 0;
+      color: #111;
+      font-size: 32px;
+    }
+
+    h2 {
+      color: #111;
+      margin-top: 34px;
+      border-bottom: 1px solid #eeeeee;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      color: #222;
+      margin-top: 22px;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+
+    ul {
+      margin-top: 8px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin: 7px 0;
     }
 
     .muted {
       color: #666;
       font-size: 14px;
     }
+
+    .notice {
+      background: #f6f6f6;
+      border-left: 4px solid #cc2b45;
+      padding: 12px 15px;
+      border-radius: 6px;
+      margin: 18px 0;
+    }
+
+    code {
+      background: #f2f2f2;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    a {
+      color: #cc2b45;
+    }
   </style>
+
 </head>
+
 <body>
-  <div class="box">
+  <div class="container">
     <h1>Rias Gremory Privacy Policy</h1>
     <p class="muted">Last updated: June 2026</p>
 
-    <h2>Overview</h2>
-    <p>
-      Rias Gremory is a Discord bot used for AI chat, moderation, support tickets,
-      leveling, welcome/goodbye messages, and server management features.
-    </p>
+```
+<div class="notice">
+  This Privacy Policy explains what data the Rias Gremory Discord bot processes, why it is processed, how long it is kept, and how users can request deletion.
+</div>
 
-    <h2>Data We Process</h2>
-    <p>
-      The bot may process Discord user IDs, server IDs, channel IDs, message content,
-      message attachments, moderation records, XP/level data, and ticket messages
-      depending on which features are enabled by server administrators.
-    </p>
+<h2>1. Overview</h2>
+<p>
+  Rias Gremory is a multi-purpose Discord bot currently developed and operated for a specific Discord community server. The bot provides server management, AI chat, AI image/GIF understanding, administrator-only voice AI, moderation tools, support tickets, leveling, level roles, welcome/goodbye messages, rank cards, and leaderboards.
+</p>
 
-    <p>
-      AI chat is only active in channels enabled by administrators. AI memory is
-      temporary, user-specific, limited to recent context, and automatically cleared
-      after about 30 minutes of inactivity.
-    </p>
+<p>
+  The bot is configured by authorized server administrators through an administrator dashboard. Regular users cannot configure privileged bot features themselves.
+</p>
 
-    <p>
-      Voice AI is restricted to administrators. It only runs when explicitly started
-      by an authorized administrator. The bot does not store audio files or persistent
-      voice transcripts.
-    </p>
+<p>
+  This bot is not designed for advertising, user profiling, selling data, or unrelated analytics. Data is processed only to provide the bot’s intended Discord server features.
+</p>
 
-    <p>
-      Ticket transcripts may be created only inside ticket channels when transcript
-      logging is enabled by administrators. Users are informed in the ticket channel
-      that the ticket may be recorded for support and moderation safety. Transcript
-      files are stored locally, include the ticket owner ID for deletion handling,
-      and are automatically deleted after 30 days.
-    </p>
+<h2>2. Data the Bot May Process</h2>
+<p>
+  Depending on which features are enabled by server administrators, the bot may process the following types of Discord data:
+</p>
 
-    <p>
-      Leveling data stores user IDs and XP/level values. Moderation records may store
-      user IDs, moderator IDs, action type, reason, and timestamp.
-    </p>
+<ul>
+  <li>Discord user IDs</li>
+  <li>Discord server IDs</li>
+  <li>Discord channel IDs</li>
+  <li>Discord message IDs</li>
+  <li>Message content in enabled AI channels</li>
+  <li>Message content inside ticket channels when transcript logging is enabled</li>
+  <li>Message attachments, such as images or GIFs, when used with AI image/GIF understanding</li>
+  <li>XP and level data</li>
+  <li>Voice XP data</li>
+  <li>Moderation records, such as warnings, mutes, bans, reasons, timestamps, target user IDs, and moderator IDs</li>
+  <li>Ticket metadata, such as ticket owner ID, ticket channel ID, open time, close time, and transcript file information</li>
+  <li>Member join and leave events for welcome/goodbye features</li>
+</ul>
 
-    <h2>How Data Is Used</h2>
-    <p>
-      Data is used only to provide bot features such as AI responses, moderation,
-      support tickets, leveling, role rewards, and server management. Data is not sold
-      and is not used for advertising or user profiling.
-    </p>
+<p>
+  The bot does not collect real names, passwords, payment information, private Discord account credentials, or any data unrelated to the bot’s server features.
+</p>
 
-    <p>
-      Message content is not used to train machine learning or AI models by the bot
-      owner. It is processed only to provide bot functionality, such as AI responses
-      or ticket transcripts.
-    </p>
+<h2>3. AI Chat</h2>
+<p>
+  AI chat is only active in channels that are explicitly enabled by server administrators. If AI chat is not enabled in a channel, the bot does not use that channel’s messages for AI chat responses.
+</p>
 
-    <h2>Data Deletion</h2>
-    <p>
-      Users may request deletion of their stored data through the bot's official
-      support server. Ticket transcripts are automatically deleted after 30 days and
-      may be deleted earlier upon request.
-    </p>
+<p>
+  When AI chat is enabled, the bot reads user message content in that enabled channel to generate conversational AI responses. This is necessary for the bot to understand what the user asked and respond appropriately.
+</p>
 
-    <h2>Contact</h2>
-    <p>
-      For privacy questions or deletion requests, users can contact the bot owner
-      through the official support server.
-    </p>
+<p>
+  AI chat uses temporary, user-specific conversation memory. This memory is limited to recent conversation context, approximately the last 6–8 messages, and is automatically cleared after about 30 minutes of inactivity from that user.
+</p>
+
+<p>
+  AI chat memory is not used for advertising, user profiling, or training models by the bot owner.
+</p>
+
+<h2>4. AI Image and GIF Understanding</h2>
+<p>
+  The bot may process images or GIFs sent by users when they ask the AI to understand or respond to visual content. This may include message attachments sent in AI-enabled channels.
+</p>
+
+<p>
+  Image and GIF data is processed only to answer the user’s request. The bot does not provide public AI image generation.
+</p>
+
+<h2>5. Voice AI</h2>
+<p>
+  Voice AI is restricted to users with Administrator permission. Regular users cannot start the voice AI feature.
+</p>
+
+<p>
+  Voice AI only runs when an authorized administrator explicitly starts it. When active, the bot joins a voice channel and processes voice input transiently to generate an AI audio response.
+</p>
+
+<p>
+  The bot does not store audio files. The bot does not keep persistent voice transcripts. Speech is processed only temporarily for the purpose of generating a response.
+</p>
+
+<p>
+  The bot may display operational logs such as connection status, usage estimates, or error messages, but it is not intended to log the actual spoken words or AI response text persistently.
+</p>
+
+<h2>6. Ticket System and Transcripts</h2>
+<p>
+  The ticket system allows users to open private support channels through a button-based ticket panel. Ticket channels are visible only to the ticket creator, the bot, and staff members with the required moderation or management permissions.
+</p>
+
+<p>
+  If ticket transcript logging is enabled by server administrators, the bot may save a text transcript of the ticket channel when the ticket is closed. Ticket transcripts are used for support review, moderation safety, abuse prevention, and staff accountability.
+</p>
+
+<p>
+  Users are informed inside the ticket channel that the ticket may be recorded for support and moderation safety.
+</p>
+
+<p>
+  Ticket transcript files are stored locally by the bot owner. Transcript file names include the ticket owner’s Discord user ID and the ticket channel ID so that deletion requests can be handled correctly.
+</p>
+
+<p>
+  Ticket transcripts are automatically deleted after 30 days. Users may also request earlier deletion through the bot’s official support server.
+</p>
+
+<p>
+  Ticket transcripts are not used for advertising, user profiling, or model training by the bot owner.
+</p>
+
+<h2>7. Leveling and XP Data</h2>
+<p>
+  The bot includes text XP and voice XP systems. These systems may store user IDs and XP/level values so users can view their rank cards, leaderboards, and progression.
+</p>
+
+<p>
+  Server administrators may configure level roles. When a user reaches a configured level, the bot may use member information to assign the appropriate role.
+</p>
+
+<p>
+  Leveling data is used only for community progression features and is not used for advertising or profiling.
+</p>
+
+<h2>8. Moderation Data</h2>
+<p>
+  The bot includes moderation tools such as warnings, mutes, bans, and moderation case logging.
+</p>
+
+<p>
+  Moderation records may include:
+</p>
+
+<ul>
+  <li>The target user’s Discord user ID</li>
+  <li>The moderator’s Discord user ID</li>
+  <li>The moderation action type</li>
+  <li>The reason provided by staff</li>
+  <li>The timestamp of the action</li>
+</ul>
+
+<p>
+  Moderation data is stored so staff can review previous moderation history, enforce server rules consistently, and prevent abuse.
+</p>
+
+<h2>9. Welcome and Goodbye Features</h2>
+<p>
+  The bot may process member join and leave events to send configured welcome or goodbye messages. These messages may include basic server and member information, such as the server name, member count, username, display name, or user mention.
+</p>
+
+<p>
+  This data is used only to provide welcome/goodbye functionality.
+</p>
+
+<h2>10. Administrator Dashboard</h2>
+<p>
+  The bot’s settings are managed through an administrator dashboard. The dashboard is intended for authorized administrators only.
+</p>
+
+<p>
+  Administrators may use the dashboard to configure AI channels, ticket settings, transcript settings, welcome/goodbye settings, leveling settings, and other server features.
+</p>
+
+<p>
+  Regular users cannot use the dashboard to enable privileged features or change bot configuration.
+</p>
+
+<h2>11. Use of Third-Party AI Services</h2>
+<p>
+  Some AI features may require sending relevant input, such as message content, image attachments, or temporary voice-derived text/audio data, to third-party AI API providers in order to generate responses.
+</p>
+
+<p>
+  The bot owner does not use user message content, ticket transcripts, images, or voice input to train machine learning or AI models.
+</p>
+
+<p>
+  AI data is transmitted only as needed to provide the requested AI functionality.
+</p>
+
+<h2>12. What the Bot Does Not Do</h2>
+<p>
+  Rias Gremory does not:
+</p>
+
+<ul>
+  <li>Sell user data</li>
+  <li>Use data for advertising</li>
+  <li>Use data for unrelated analytics</li>
+  <li>Use message content to profile users</li>
+  <li>Store Discord account passwords or login credentials</li>
+  <li>Store audio files from voice AI</li>
+  <li>Keep persistent voice transcripts</li>
+  <li>Provide public AI image generation</li>
+  <li>Request or use Presence Intent to track online status or activities</li>
+</ul>
+
+<h2>13. Data Retention</h2>
+<p>
+  Different types of data are kept for different lengths of time depending on the feature:
+</p>
+
+<ul>
+  <li>AI chat memory is temporary and clears after about 30 minutes of user inactivity.</li>
+  <li>Ticket transcripts are automatically deleted after 30 days.</li>
+  <li>XP and level data may be kept while the leveling system is active.</li>
+  <li>Moderation records may be kept as long as necessary for server safety and staff review.</li>
+  <li>Voice AI audio files and persistent voice transcripts are not stored.</li>
+</ul>
+
+<h2>14. Data Deletion Requests</h2>
+<p>
+  Users may request deletion of stored data through the bot’s official support server.
+</p>
+
+<p>
+  For ticket transcript deletion requests, the ticket owner’s Discord user ID may be used to locate transcript files. Transcript files are automatically deleted after 30 days even if no manual deletion request is made.
+</p>
+
+<p>
+  Some moderation records may need to be retained for server safety, abuse prevention, or rule enforcement. Deletion requests will be reviewed based on the type of data and the reason it is stored.
+</p>
+
+<h2>15. Data Security</h2>
+<p>
+  The bot owner takes reasonable steps to protect stored bot data. Access to bot files, dashboard configuration, and stored transcript files is limited to authorized operators.
+</p>
+
+<p>
+  Users should not share sensitive personal information, passwords, payment information, private credentials, or other highly sensitive data with the bot or inside ticket channels.
+</p>
+
+<h2>16. Children and Sensitive Information</h2>
+<p>
+  Users should not intentionally provide sensitive personal information to the bot. The bot is intended to operate within Discord servers according to Discord’s own rules and age requirements.
+</p>
+
+<p>
+  If sensitive information is accidentally shared in a ticket or message, users may request deletion through the official support server.
+</p>
+
+<h2>17. Changes to This Policy</h2>
+<p>
+  This Privacy Policy may be updated when the bot’s features, data handling, or retention practices change. The “Last updated” date at the top of this page will be changed when the policy is updated.
+</p>
+
+<h2>18. Contact</h2>
+<p>
+  For privacy questions, data deletion requests, or concerns about how Rias Gremory processes data, users can contact the bot owner through the official support server:
+</p>
+
+<p>
+  <a href="https://discord.gg/3G8n2DCruk">SUPPORT SERVER</a>
+</p>
+```
+
   </div>
 </body>
 </html>
